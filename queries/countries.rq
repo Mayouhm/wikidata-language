@@ -1,0 +1,10 @@
+SELECT DISTINCT ?country ?countryLabel ?iso2 ?iso3 ?iso_num WHERE {
+  ?country wdt:P297 ?iso2.                    
+  ?country wdt:P31 ?type.
+  VALUES ?type {wd:Q6256 wd:Q3624078}
+  MINUS {?country wdt:P31/wdt:P279* wd:Q3024240.}
+  OPTIONAL { ?country wdt:P298 ?iso3. }       
+  OPTIONAL { ?country wdt:P299 ?iso_num. }    
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?country
