@@ -1,0 +1,10 @@
+SELECT DISTINCT ?language ?languageLabel ?country ?countryLabel WHERE {
+  ?language wdt:P220 ?iso639_3.
+  ?language wdt:P31/wdt:P279* wd:Q34770.         
+  ?country wdt:P37 ?language.
+  ?country wdt:P31 ?type.
+  VALUES ?type { wd:Q6256 wd:Q3624078 } # only countries/sovereign states
+  MINUS {?country wdt:P31/wdt:P279* wd:Q3024240.} # exclude historic countries
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?language

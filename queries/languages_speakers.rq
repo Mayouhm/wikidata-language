@@ -1,0 +1,9 @@
+SELECT DISTINCT ?language ?languageLabel ?speakers ?year WHERE {
+  ?language wdt:P220 ?iso639_3.
+  ?language wdt:P31/wdt:P279* wd:Q34770.     
+  ?language p:P1098 ?stmt.
+  ?stmt ps:P1098 ?speakers.
+  OPTIONAL { ?stmt pq:P585 ?year. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?language

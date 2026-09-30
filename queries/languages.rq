@@ -1,0 +1,6 @@
+SELECT DISTINCT ?language ?languageLabel ?iso639_3 WHERE {
+  ?language wdt:P220 ?iso639_3.            
+  ?language wdt:P31/wdt:P279* wd:Q34770.   
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?language
