@@ -1,6 +1,9 @@
-SELECT DISTINCT ?language ?languageLabel ?iso639_3 WHERE {
+SELECT DISTINCT ?language ?languageLabel ?iso639_3 ?iso639_1 ?glottolog ?links WHERE {
   ?language wdt:P220 ?iso639_3.            
-  ?language wdt:P31/wdt:P279* wd:Q34770.   
+  ?language wdt:P31/wdt:P279* wd:Q34770. 
+  OPTIONAL { ?language wdt:P218 ?iso639_1. }
+  OPTIONAL { ?language wdt:P1394 ?glottolog. }
+  ?language wikibase:sitelinks ?links.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ORDER BY ?language

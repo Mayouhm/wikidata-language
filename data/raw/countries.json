@@ -1,0 +1,4470 @@
+{
+  "head" : {
+    "vars" : [ "country", "countryLabel", "iso2", "iso3", "iso_num" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenya"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KEN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "404"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ethiopia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ET"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ETH"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "231"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ghana"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GHA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "288"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "France"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "FR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "FRA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "250"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Kingdom"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GB"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GBR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "826"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q148"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "People's Republic of China"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CHN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "156"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brazil"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BRA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "076"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "RU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "RUS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "643"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canada"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CAN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "124"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Japan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "JP"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "JPN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "392"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Germany"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DEU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "276"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q184"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belarus"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BLR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "112"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q189"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iceland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ISL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "352"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q191"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Estonia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "EE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "EST"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "233"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Norway"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NOR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "578"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LV"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LVA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "428"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ukraine"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "UA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "UKR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "804"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Czech Republic"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CZE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "203"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q214"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slovakia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SVK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "703"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slovenia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SVN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "705"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q217"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moldova"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MDA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "498"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Romania"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "RO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ROU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "642"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulgaria"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BGR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "100"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Macedonia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MKD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "807"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q222"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Albania"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ALB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "008"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greenland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GRL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "304"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q224"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Croatia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "HR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "HRV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "191"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q225"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bosnia and Herzegovina"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BIH"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "070"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q227"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azerbaijan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AZE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "031"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q228"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andorra"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AND"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "020"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q229"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cyprus"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CYP"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "196"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q230"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Georgia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GEO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "268"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q232"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazakhstan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KAZ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "398"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q233"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malta"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MLT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "470"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q235"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monaco"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MC"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MCO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "492"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q236"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Montenegro"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ME"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MNE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "499"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q237"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vatican City"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "VA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "VAT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "336"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q238"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "San Marino"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SMR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "674"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q241"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cuba"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CUB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "192"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q242"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belize"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BLZ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "084"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q244"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barbados"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BB"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BRB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "052"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q252"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indonesia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ID"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "IDN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "360"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ireland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "IRL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "372"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hungary"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "HU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "HUN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "348"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spain"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ES"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ESP"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "724"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United States"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "US"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "USA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "840"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgium"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BEL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "056"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourg"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LUX"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "442"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Finland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "FI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "FIN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "246"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sweden"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SWE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "752"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Denmark"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DNK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "208"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Poland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "POL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "616"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lithuania"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LTU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "440"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Italy"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ITA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "380"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Switzerland"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CHE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "756"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Austria"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AUT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "040"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Greece"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GRC"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "300"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkey"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TUR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "792"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Portugal"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PRT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "620"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uruguay"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "UY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "URY"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "858"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q79"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Egypt"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "EG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "EGY"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "818"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mexico"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MX"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MEX"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "484"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219060"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palestine"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PSE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "275"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1000"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gabon"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GAB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "266"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1005"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Gambia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GMB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "270"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1006"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guinea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GIN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "324"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1007"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guinea-Bissau"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GNB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "624"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1008"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ivory Coast"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CIV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "384"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1009"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cameroon"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CMR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "120"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1011"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cape Verde"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CV"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CPV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "132"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1013"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lesotho"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LSO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "426"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1014"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liberia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LBR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "430"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1016"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Libya"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LBY"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "434"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1019"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Madagascar"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MDG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "450"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1020"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malawi"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MWI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "454"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1025"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mauritania"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MRT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "478"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1027"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mauritius"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MUS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "480"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1028"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Morocco"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MAR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "504"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1029"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mozambique"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MOZ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "508"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1030"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Namibia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NAM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "516"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1032"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Niger"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NER"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "562"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1033"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nigeria"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NGA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "566"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1036"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uganda"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "UG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "UGA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "800"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1037"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rwanda"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "RW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "RWA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "646"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1039"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "São Tomé and Príncipe"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ST"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "STP"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "678"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1041"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Senegal"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SEN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "686"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1042"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seychelles"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SC"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SYC"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "690"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1044"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sierra Leone"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SLE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "694"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1045"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Somalia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SOM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "706"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1049"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sudan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SDN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "729"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1050"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eswatini"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SWZ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "748"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1246"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kosovo"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "XK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "XKS"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21203"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aruba"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ABW"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "533"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25279"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Curaçao"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CUW"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "531"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Africa"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ZA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ZAF"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "710"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q262"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algeria"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DZA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "012"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26273"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sint Maarten"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SX"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SXM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "534"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q265"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Uzbekistan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "UZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "UZB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "860"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26988"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cook Islands"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "COK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "184"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chile"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CHL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "152"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29999"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingdom of the Netherlands"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NLD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "528"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SGP"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "702"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34020"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Niue"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NIU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "570"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q347"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Liechtenstein"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LIE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "438"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q398"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bahrain"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BHR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "048"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q399"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Armenia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ARM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "051"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q403"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Serbia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "RS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SRB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "688"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q408"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Australia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AUS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "036"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Argentina"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ARG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "032"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q419"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Peru"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PER"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "604"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q423"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Korea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KP"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PRK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "408"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q424"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cambodia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KHM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "116"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q574"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Timor-Leste"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TLS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "626"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q657"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chad"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TCD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "148"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q664"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Zealand"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NZL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "554"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "India"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "IND"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "356"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tuvalu"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TV"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TUV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "798"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q678"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tonga"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TON"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "776"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q683"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samoa"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "WS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "WSM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "882"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q685"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Solomon Islands"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SB"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SLB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "090"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q686"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vanuatu"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "VU"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "VUT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "548"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q691"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papua New Guinea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PNG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "598"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palau"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PLW"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "585"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nauru"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NRU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "520"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q702"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Federated States of Micronesia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "FM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "FSM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "583"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q709"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marshall Islands"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MHL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "584"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q710"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiribati"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KIR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "296"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q711"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mongolia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MNG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "496"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q712"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fiji"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "FJ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "FJI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "242"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q717"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Venezuela"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "VE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "VEN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "862"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q730"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Suriname"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SUR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "740"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q733"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paraguay"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PRY"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "600"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q734"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guyana"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GUY"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "328"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q736"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ecuador"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "EC"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ECU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "218"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q739"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Colombia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "COL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "170"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q750"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bolivia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BOL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "068"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q754"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Trinidad and Tobago"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TTO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "780"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q757"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saint Vincent and the Grenadines"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "VC"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "VCT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "670"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q760"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saint Lucia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LC"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LCA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "662"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saint Kitts and Nevis"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KNA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "659"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q766"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jamaica"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "JM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "JAM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "388"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q769"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grenada"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GRD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "308"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q774"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guatemala"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GTM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "320"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q778"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Bahamas"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BHS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "044"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q781"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antigua and Barbuda"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ATG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "028"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q783"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honduras"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "HN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "HND"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "340"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q784"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dominica"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DMA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "212"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q786"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dominican Republic"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DOM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "214"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haiti"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "HT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "HTI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "332"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q792"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "El Salvador"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SV"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SLV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "222"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iran"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "IRN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "364"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iraq"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IQ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "IRQ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "368"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q800"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Costa Rica"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CRI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "188"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q801"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Israel"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "IL"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ISR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "376"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q804"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panama"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PAN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "591"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q805"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yemen"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "YE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "YEM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "887"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q810"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jordan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "JO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "JOR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "400"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q811"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nicaragua"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NIC"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "558"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q813"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kyrgyzstan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KGZ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "417"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q817"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuwait"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KWT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "414"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q819"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laos"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LAO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "418"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q822"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lebanon"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LB"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LBN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "422"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q826"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maldives"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MV"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MDV"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "462"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malaysia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MYS"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "458"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q836"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Myanmar"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "MM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MMR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "104"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q837"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nepal"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "NP"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "NPL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "524"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oman"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "OM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "OMN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "512"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q843"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pakistan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PAK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "586"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q846"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Qatar"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "QA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "QAT"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "634"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q851"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saudi Arabia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SA"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SAU"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "682"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sri Lanka"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "LK"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "LKA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "144"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q858"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Syria"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SY"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SYR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "760"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q863"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tajikistan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TJ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TJK"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "762"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q865"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taiwan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TWN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "158"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q869"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thailand"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "THA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "764"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q874"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Turkmenistan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TKM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "795"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q878"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "United Arab Emirates"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AE"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ARE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "784"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q881"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vietnam"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "VN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "VNM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "704"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Korea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KR"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "KOR"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "410"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q889"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Afghanistan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AF"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AFG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "004"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangladesh"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BGD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "050"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q912"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mali"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ML"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "MLI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "466"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Angola"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "AO"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "AGO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "024"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bhutan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BT"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BTN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "064"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brunei"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BRN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "096"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q924"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tanzania"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TZ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TZA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "834"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q928"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Philippines"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "PH"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "PHL"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "608"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q929"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central African Republic"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CF"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "CAF"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "140"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q945"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Togo"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TGO"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "768"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q948"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tunisia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "TN"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "TUN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "788"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q953"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zambia"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ZM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ZMB"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "894"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q954"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zimbabwe"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ZW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ZWE"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "716"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q958"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Sudan"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "SS"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "SSD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "728"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q962"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Benin"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BJ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BEN"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "204"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q963"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Botswana"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BW"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BWA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "072"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q965"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Burkina Faso"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BF"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BFA"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "854"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q967"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Burundi"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "BI"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "BDI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "108"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q970"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Comoros"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "KM"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "COM"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "174"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q971"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Republic of the Congo"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CG"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "COG"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "178"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q974"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Democratic Republic of the Congo"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "CD"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "COD"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "180"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q977"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Djibouti"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "DJ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "DJI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "262"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q983"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Equatorial Guinea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "GQ"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "GNQ"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "226"
+      }
+    }, {
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q986"
+      },
+      "countryLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eritrea"
+      },
+      "iso2" : {
+        "type" : "literal",
+        "value" : "ER"
+      },
+      "iso3" : {
+        "type" : "literal",
+        "value" : "ERI"
+      },
+      "iso_num" : {
+        "type" : "literal",
+        "value" : "232"
+      }
+    } ]
+  }
+}
