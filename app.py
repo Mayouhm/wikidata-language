@@ -10,7 +10,7 @@ def get_database_connection():
     return duckdb.connect("data/languages.duckdb", read_only=True)
 
 @st.cache_data
-def query(sql):
+def query(sql, params=None):
     return get_database_connection().execute(sql).df()
 
 @st.cache_data
@@ -20,7 +20,6 @@ def load_geojson():
 
 
 # THe structure was based off code from a past project
-
 def round_coords(coords, nd=2):
     if isinstance(coords[0], (int, float)):
         return [round(c, nd) for c in coords]
@@ -33,10 +32,18 @@ def prepare_data(sql_query):
     features = []
     for f in load_geojson()["features"]:
         iso = f["properties"]["ADM0_A3"]
+        #South Sudan and Palestine ISO Code mismatch. Update the GeoJSON ISO-Code
+        if iso == "SDS":
+            iso = "SSD"
+            f["properties"]["ADM0_A3"] = "SSD"
+        elif iso == "PSX":
+            iso = "PSE"
+            f["properties"]["ADM0_A3"] = "PSE"
         if iso in lookup.index:
             n, langs = int(lookup.loc[iso, "n_languages"]), lookup.loc[iso, "languages"]
         else:
             n, langs = "No data", "No data"
+        
         features.append({
             "type": "Feature",
             "geometry": {"type": f["geometry"]["type"],
@@ -87,12 +94,6 @@ country_sql = """
     GROUP BY c.iso3, c.countryLabel
 """
 
-st.write("Below is a map showing official languages by country.")
-
-language_map = build_map(country_sql)
-st_folium(language_map , height=500, use_container_width=True, returned_objects=[])
-html = language_map.get_root().render()
-
 # Below shows the tables we got through WikiData which were cleaned in part via Pandas with the help of DuckDB
 table_names = ["languages", "languages_codes", "countries", "languages_countries", 
              "languages_parents", "languages_scripts", "languages_speakers"]
@@ -102,16 +103,83 @@ with st.expander("Browse the database tables"):
         dfs[table_name] = query(f"SELECT * FROM {table_name}")
         st.write(f"{len(dfs[table_name]):,} {table_name}")
         st.dataframe(dfs[table_name])
-    
-script_count_query = query("""
+
+def generate_percentage(choice):
+    count_query = query(f"""
+        SELECT
+            (SELECT COUNT(*) FROM languages)                      AS total,
+            (SELECT COUNT(DISTINCT language) FROM languages_{choice}s) AS with_{choice}
+    """)
+    total = int(count_query.loc[0, "total"])
+    with_choice = int(count_query.loc[0, f"with_{choice}"])
+    percent = 100 * with_choice / total
+    st.metric(f"Languages with a {choice}", f"{percent:.1f}%")
+    st.caption(f"{with_choice:,} of {total:,} languages have at least one {choice} in Wikidata")
+def generate_percentage_speakers():
+    choice = "speaker"
+    count_query = query(f"""
+        SELECT
+            (SELECT COUNT(*) FROM languages)                      AS total,
+            (SELECT COUNT(DISTINCT language) FROM languages_{choice}s) AS with_{choice}
+    """)
+    total = int(count_query.loc[0, "total"])
+    with_choice = int(count_query.loc[0, f"with_{choice}"])
+    percent = 100 * with_choice / total
+    st.metric(f"Languages with a speakers count", f"{percent:.1f}%")
+    st.caption(f"{with_choice:,} of {total:,} languages have at least one speakers count in Wikidata")
+def generate_percentage_country():
+    choice = "countrie"
+    count_query = query(f"""
+        SELECT
+            (SELECT COUNT(*) FROM languages)                      AS total,
+            (SELECT COUNT(DISTINCT language) FROM languages_countries) AS with_{choice}
+    """)
+    total = int(count_query.loc[0, "total"])
+    with_choice = int(count_query.loc[0, f"with_{choice}"])
+    percent = 100 * with_choice / total
+    st.metric(f"Languages with a speakers count", f"{percent:.1f}%")
+    st.caption(f"{with_choice:,} of {total:,} languages have at least one speakers count in Wikidata")
+
+st.write("The below percentages can tell us two things: the quality of data on wikidata and how many languages actually lack the features mentioned.")
+generate_percentage("script")
+generate_percentage("parent")
+generate_percentage_speakers()
+
+# Offical languages
+
+st.header("Official Languages in Countries")
+generate_percentage_country()
+
+st.write("The table shows the most common official languages.")
+top_languages = query("""
     SELECT
-        (SELECT COUNT(*) FROM languages)                      AS total,
-        (SELECT COUNT(DISTINCT language) FROM languages_scripts) AS with_script
+        l.languageLabel AS language,
+        COUNT(*)        AS countries
+    FROM languages_countries lc
+    JOIN languages l ON l.language = lc.language
+    GROUP BY l.language, l.languageLabel
+    ORDER BY countries DESC, language
+    LIMIT 10
 """)
+st.dataframe(top_languages, hide_index=True)
 
-total = int(script_count_query.loc[0, "total"])
-with_script = int(script_count_query.loc[0, "with_script"])
-pct = 100 * with_script / total
+st.write("The below table shows the proportion of the number of languages by country.")
+language_count_country = query("""
+    WITH per_country AS (
+        SELECT c.country, COUNT(lc.language) AS n
+        FROM countries c
+        LEFT JOIN languages_countries lc ON lc.country = c.country
+        GROUP BY c.country
+    )
+    SELECT n AS languages_per_country, COUNT(*) AS countries
+    FROM per_country
+    GROUP BY n
+    ORDER BY n
+""")
+st.dataframe(language_count_country, hide_index=True)
+st.write("Below is a map showing official languages by country.")
 
-st.metric("Languages with a recorded writing system", f"{pct:.1f}%")
-st.caption(f"{with_script:,} of {total:,} languages have at least one script in Wikidata")
+language_map = build_map(country_sql)
+st_folium(language_map , height=500, use_container_width=True, returned_objects=[])
+html = language_map.get_root().render()
+st.caption("Note: For the GeoJSON, I used Natural Earth. I specifically used the British country perspective. Unfortunately, it is imperfect. For example, despite British recognition of Kosovo, it does not show up here on the map. This only affects the map.")
