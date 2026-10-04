@@ -83,7 +83,7 @@ print("check")
 assert dfs["languages"]["language"].is_unique
 print("check")
 
-lc = dfs["languages_countries"]
-known = set(dfs["countries"]["country"])
-missing = lc[~lc["country"].isin(known)]
-print(missing.drop_duplicates("country"))
+# lc = dfs["languages_countries"]
+# known = set(dfs["countries"]["country"])
+# missing = lc[~lc["country"].isin(known)]
+# print(missing.drop_duplicates("country"))
