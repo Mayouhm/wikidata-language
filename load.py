@@ -31,6 +31,8 @@ def clean_languages(df):
 
     languages = df[["language", "languageLabel", "iso639_1", "links"]].drop_duplicates()
     return languages, languages_codes
+
+# cleaning the data
 def clean_countries(df):
     df["country"] = remove_link_qid(df["country"])
     return df

@@ -11,7 +11,7 @@ def get_database_connection():
 
 @st.cache_data
 def query(sql, params=None):
-    return get_database_connection().execute(sql).df()
+    return get_database_connection().execute(sql,params).df()
 
 @st.cache_data
 def load_geojson():
@@ -79,20 +79,8 @@ def build_map(sql_query):
     return m
 
 st.write("Hello to all who read this! This is the result of the work I was assigned to do. I used data about languages from WikiData.")
+every_language_query = query("SELECT language, languageLabel FROM languages ORDER BY languageLabel")
 
-# the interactive map
-country_sql = """
-    SELECT
-        c.iso3,
-        c.countryLabel AS name,
-        COUNT(lc.language) AS n_languages,
-        COALESCE(string_agg(l.languageLabel, ', ' ORDER BY l.languageLabel), 'None recorded') AS languages
-    FROM countries c
-    LEFT JOIN languages_countries lc ON lc.country  = c.country
-    LEFT JOIN languages l            ON l.language = lc.language
-    WHERE c.iso3 IS NOT NULL
-    GROUP BY c.iso3, c.countryLabel
-"""
 
 # Below shows the tables we got through WikiData which were cleaned in part via Pandas with the help of DuckDB
 table_names = ["languages", "languages_codes", "countries", "languages_countries", 
@@ -145,6 +133,36 @@ generate_percentage("script")
 generate_percentage("parent")
 generate_percentage_speakers()
 
+
+labels = dict(zip(every_language_query["language"], every_language_query["languageLabel"]))
+
+choice = st.selectbox(
+    "Search for a language",
+    options=every_language_query["language"].tolist(),
+    format_func=lambda qid: f"{labels[qid]} ({qid})",
+    index=None,
+    placeholder="Start typing, e.g. French, Arabic, Tapirapé ",
+)
+
+if choice:
+    names = ["parent", "script"]
+    for name in names:
+        choice_query = query(
+            f"""
+            SELECT {name}Label AS {name}, {name} AS wikidata_id
+            FROM languages_{name}s
+            WHERE language = ?
+            ORDER BY {name}Label
+            """,
+            (choice,),
+        )
+        st.write(f"**{labels[choice]}** has {len(choice_query)} recorded {name} group(s) in Wikidata.")
+        if choice_query.empty:
+            st.info(f"No {name}s are recorded for this language in Wikidata.")
+        else:
+            st.dataframe(choice_query, hide_index=True)
+
+
 # Offical languages
 
 st.header("Official Languages in Countries")
@@ -178,6 +196,19 @@ language_count_country = query("""
 """)
 st.dataframe(language_count_country, hide_index=True)
 st.write("Below is a map showing official languages by country.")
+
+country_sql = """
+    SELECT
+        c.iso3,
+        c.countryLabel AS name,
+        COUNT(lc.language) AS n_languages,
+        COALESCE(string_agg(l.languageLabel, ', ' ORDER BY l.languageLabel), 'None recorded') AS languages
+    FROM countries c
+    LEFT JOIN languages_countries lc ON lc.country  = c.country
+    LEFT JOIN languages l            ON l.language = lc.language
+    WHERE c.iso3 IS NOT NULL
+    GROUP BY c.iso3, c.countryLabel
+"""
 
 language_map = build_map(country_sql)
 st_folium(language_map , height=500, use_container_width=True, returned_objects=[])
